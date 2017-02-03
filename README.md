@@ -9,9 +9,9 @@ Step-2:
 * java -jar build/libs/sample-0.0.1-SNAPSHOT.jar
 
 Step-3"
-curl http://localhost:8082/api/hystrix-get
-curl http://localhost:8082/api/hystrix-self-invocation
-curl http://localhost:8082/api/hystrix-self-invocation-annotation
+curl http://localhost:{server_ip}/api/hystrix-get
+curl http://localhost:{server_ip}/api/hystrix-self-invocation
+curl http://localhost:{server_ip}/api/hystrix-self-invocation-annotation
 
 
 ###  Output: You will see that selfInvocation call is not wrapped by hystrix
